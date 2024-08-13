@@ -1,6 +1,5 @@
 import re
 
-# Step 1: Parse the input file
 container_dict = {}
 with open('./data/AOC7.txt', 'r') as answer_file:
     for elem in answer_file.read().splitlines():
